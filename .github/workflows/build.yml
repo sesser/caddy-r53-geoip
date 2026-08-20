@@ -1,4 +1,8 @@
 name: build-caddy
+permissions:
+  contents: read
+  packages: write
+
 on:
   workflow_dispatch: {}
   schedule:
